@@ -1,0 +1,179 @@
+body {
+  background-color: #e8e8e8;
+}
+
+#motSection {
+  height: 558px;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(42, 42, 45, 0) 0%, rgba(67, 45, 37, 0.63) 80.83%, rgba(55, 38, 23, 0.95) 96.66%), url("bild.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px 20px;
+  align-items: center;
+}
+#motSection h1 {
+  font-family: "Playball";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 20.95px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-bottom: 9px;
+}
+#motSection h2 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.87px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-bottom: 5px;
+}
+#motSection h6 {
+  font-size: 11px;
+  font-weight: 510;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 13.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  margin-bottom: 16px;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+#motSection p {
+  color: #afa9a0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+#motSection .buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+#motSection .buttonContainer button {
+  flex-grow: 1;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  background-color: rgba(255, 233, 147, 0.1490196078);
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 0px;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  transition: 250ms all cubic-bezier(0, 0, 0.4, 0.95);
+}
+
+.modal {
+  position: fixed;
+  bottom: 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 20;
+  transition: all 250ms cubic-bezier(0, 0, 0.4, 0.95);
+  border-radius: 12px 12px 0 0 !important;
+}
+.modal img {
+  width: 281.4px;
+  height: 203.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.modal svg {
+  position: static;
+  bottom: 54px;
+}
+.modal h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40.57px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 15px;
+  color: #1d1d1f;
+}
+.modal p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 16px;
+}
+.modal .dwnldBtn {
+  box-sizing: border-box;
+  background: linear-gradient(270deg, #c5c0fe 9.06%, #a89afc 44.16%, #5243fb 100%);
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 14px 0px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21.99px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  border-radius: 15px;
+  margin-top: 36px;
+}
+.modal .dwnldSctn {
+  padding: 0px 20px;
+}
+.modal .previewSec {
+  padding: 13px 16px;
+  background-color: #f5f5f7;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.modalOpen {
+  top: 50px;
+}
+
+.close-button {
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=Startpage.css.map */
